@@ -6,11 +6,11 @@ The variable we are trying to model corresponds to the last column, and is "Conc
 The following are addressed:
 Α. Evaluate the performance of Ordinary Least Squares regression, as well as Ridge and LASSO linear regression. Experiment with different values of the normalisation weight. Summarize the results of the evaluation based on mean squared error (MSE), mean absolute error (MAE) and mean absolute percentage error (MAPE).
 
-                                                                    𝑀𝑆𝐸=1𝑁||𝒚-𝒚̂||22
+                                                          𝑀𝑆𝐸=1𝑁||𝒚-𝒚̂||22
 
-                                                                    𝑀𝐴𝐸=1𝑁||𝒚-𝒚̂||1
+                                                          𝑀𝐴𝐸=1𝑁||𝒚-𝒚̂||1
 
-                                                               𝑀𝐴𝑃𝐸=1𝑁Σ|𝑦(𝑖)-𝑦̂(𝑖)𝑦(𝑖)𝑁𝑖=1|
+                                                     𝑀𝐴𝑃𝐸=1𝑁Σ|𝑦(𝑖)-𝑦̂(𝑖)𝑦(𝑖)𝑁𝑖=1|
                                    
 B. In the previous question we chose the normalization weight (hyperparameter alpha in scikit-learn) by looking at the results in the evaluation set(underlying disadvantages).
 
